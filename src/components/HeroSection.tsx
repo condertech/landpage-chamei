@@ -18,9 +18,6 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-block px-4 py-1.5 rounded-full bg-accent/20 text-lime text-sm font-semibold mb-6 border border-accent/30">
-              Para donos de quadras
-            </span>
 
             <h1 className="text-4xl md:text-6xl font-extrabold text-primary-foreground leading-tight mb-6">
               Sua quadra sempre{" "}
