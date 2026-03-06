@@ -27,7 +27,7 @@ const CTASection = () => {
               href="#"
               className="inline-flex items-center justify-center gap-2 rounded-xl bg-lime px-8 py-4 text-base font-bold text-primary hover:brightness-110 transition-all"
             >
-              Começar agora — é grátis
+              Começar agora
               <ArrowRight size={18} />
             </a>
             <p className="text-primary-foreground/50 text-sm mt-4">
