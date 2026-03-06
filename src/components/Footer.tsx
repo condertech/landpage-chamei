@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
         <img src={logoChamei} alt="Chamei" className="h-8 rounded-md" />
         <p className="text-sm text-muted-foreground">
-          © 2025 Chamei. Todos os direitos reservados.
+          © 2025 Chamei. Todos os direitos reservados. Desenvolvido por ConderTech.
         </p>
         <div className="flex gap-6">
           <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Termos</a>
