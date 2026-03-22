@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logoChamei from "@/assets/logo-chamei.jpeg";
+import logoChamei from "@/assets/chamei.logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,15 +12,36 @@ const Navbar = () => {
         <img src={logoChamei} alt="Chamei" className="h-10 rounded-md" />
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#beneficios" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Benefícios</a>
-          <a href="#como-funciona" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Como Funciona</a>
-          <a href="#depoimentos" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Depoimentos</a>
-          <a href="#cadastro" className="inline-flex items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-forest-light transition-colors">
-            Cadastrar Quadra
+          <a
+            href="#beneficios"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Benefícios
+          </a>
+          <a
+            href="#como-funciona"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Como Funciona
+          </a>
+          <a
+            href="#depoimentos"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Depoimentos
+          </a>
+          <a
+            href="#cadastro"
+            className="inline-flex items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-forest-light transition-colors"
+          >
+            Baixar App
           </a>
         </div>
 
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-foreground">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-foreground"
+        >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -31,11 +52,29 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden bg-card border-b border-border px-4 pb-4 flex flex-col gap-3"
         >
-          <a href="#beneficios" className="text-sm font-medium text-muted-foreground py-2">Benefícios</a>
-          <a href="#como-funciona" className="text-sm font-medium text-muted-foreground py-2">Como Funciona</a>
-          <a href="#depoimentos" className="text-sm font-medium text-muted-foreground py-2">Depoimentos</a>
-          <a href="#cadastro" className="inline-flex items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground">
-            Cadastrar Quadra
+          <a
+            href="#beneficios"
+            className="text-sm font-medium text-muted-foreground py-2"
+          >
+            Benefícios
+          </a>
+          <a
+            href="#como-funciona"
+            className="text-sm font-medium text-muted-foreground py-2"
+          >
+            Como Funciona
+          </a>
+          <a
+            href="#depoimentos"
+            className="text-sm font-medium text-muted-foreground py-2"
+          >
+            Depoimentos
+          </a>
+          <a
+            href="#cadastro"
+            className="inline-flex items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground"
+          >
+            Baixar App
           </a>
         </motion.div>
       )}
