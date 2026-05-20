@@ -31,6 +31,12 @@ const Navbar = () => {
             Depoimentos
           </a>
           <a
+            href="/politica-de-privacidade"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+          >
+            Privacidade
+          </a>
+          <a
             href="#cadastro"
             className="inline-flex items-center justify-center rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-forest-light transition-colors"
           >
@@ -69,6 +75,12 @@ const Navbar = () => {
             className="text-sm font-medium text-muted-foreground py-2"
           >
             Depoimentos
+          </a>
+          <a
+            href="/politica-de-privacidade"
+            className="text-sm font-medium text-muted-foreground py-2"
+          >
+            Privacidade
           </a>
           <a
             href="#cadastro"

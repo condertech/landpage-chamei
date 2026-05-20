@@ -137,7 +137,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/politica-de-privacidade"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Privacidade
